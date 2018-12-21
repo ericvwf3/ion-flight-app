@@ -10,7 +10,7 @@ export class FlightsService {
 
     dataApi: Flight[];
 
-    apiKey: string = "700da2-030cc0";
+    apiKey: string = "aff6d2-f8b904";
     iataCode: string = "LYS";
     flightType: string = "departure";
     apiUrl: string = 'http://aviation-edge.com/v2/public/timetable?key='+this.apiKey+'&iataCode='+this.iataCode+'&type='+this.flightType;
